@@ -1,0 +1,18 @@
+.title {
+  text-align: center;
+}
+
+.songs-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.song {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 171px;
+}
